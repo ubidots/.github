@@ -9,7 +9,7 @@ We sit between enterprise platforms (ThingWorx, AWS IoT, Siemens MindSphere, Ign
 - 🌐 [ubidots.com](https://ubidots.com) — platform & pricing
 - 📘 [dev.ubidots.com](https://dev.ubidots.com) — developer docs (Dashboards, UbiFunctions, Plugins, Synthetic Variables, SDKs, CLI)
 - 💬 [help.ubidots.com](https://help.ubidots.com) — help center & supported device catalog
-- 🚀 [industrial.ubidots.com](https://industrial.ubidots.com/accounts/signup_industrial/) — sign up
+- 🚀 [ubidots.com/signup](https://ubidots.com/signup) — sign up
 - 🎓 [stem.ubidots.com](https://stem.ubidots.com) — free STEM tier (3 devices, non-commercial)
 
 ---
@@ -36,7 +36,14 @@ Point Claude, Cursor, or any MCP-compatible agent at your Ubidots account. Read 
 ```bash
 pip install ubidots-cli
 ```
-Develop and deploy UbiFunctions (serverless logic), provision devices and variables, and run a local dev server. Designed to be driven by humans **or** agents.
+Build and deploy entire IoT applications — **frontend + backend, including time-series storage** — from your terminal or an agent:
+
+- **Apps** — white-labeled customer portals for your end clients
+- **Pages** — Ubidots-hosted custom frontends *(replaces Vercel for IoT UIs)*
+- **UbiFunctions** — serverless logic close to your data *(replaces Supabase Edge / Lambda)*
+- **Devices & Variables** — provisioning, schemas, time-series ingest and storage
+
+One toolchain, no infra to operate. Designed to be driven by humans **or** agents.
 
 ### 🎨 Custom Widgets & Pages — [`ubidots/react-html-canvas`](https://github.com/ubidots/react-html-canvas)
 React library for building any frontend on top of Ubidots data — custom dashboards, white-labeled end-client portals, embedded views.
